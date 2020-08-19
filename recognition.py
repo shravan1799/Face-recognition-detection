@@ -4,12 +4,12 @@ import os
 
 #local binary patterns histogram
 recognizer = cv2.face.LBPHFaceRecognizer_create()
-recognizer.read('trainer/trainer.yml')
-cascadePath = "cascades/data/haarcascade_frontalface_default.xml"
+recognizer.read('trainer/trainer.yml') #generated_after_training_faces_make_sure_to_write_correct_path
+cascadePath = "cascades/data/haarcascade_frontalface_default.xml" #your_own_path
 faceCascade = cv2.CascadeClassifier(cascadePath)
 font = cv2.FONT_HERSHEY_SIMPLEX
 id = 0
-names = ['Shravan']
+names = ['Shravan'] #its_my_name_here_but_you_can_take_input_from_user_while_taking_the_images_and_append_it_in_this_list_dynamically
 cam = cv2.VideoCapture(0)
 cam.set(3, 640)
 cam.set(4, 480)
