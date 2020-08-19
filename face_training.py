@@ -5,7 +5,7 @@ import os
 
 path = 'dataset'
 recog = cv2.face.LBPHFaceRecognizer_create()
-fd = cv2.CascadeClassifier("cascades/data/haarcascade_frontalface_default.xml")
+fd = cv2.CascadeClassifier("cascades/data/haarcascade_frontalface_default.xml") #your_own_path
 def get_label(path):
     imagepaths = [os.path.join(path,f) for f in os.listdir(path)]
     facesamples = []
