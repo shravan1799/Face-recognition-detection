@@ -12,3 +12,8 @@ face_training.py - to train the faces from the dataset and store in yml file.
 recognition.py - final module to test our training output, it will recognise the faces from the live cam feed.
 
 image_comparision.py - extra module used to see the similarities between two images using SSIM.
+
+
+UPDATE:
+To make the program more dynamic I have merged all the files and used switch for menu functionality.
+Now you can scan multiple faces at one time and train then all together instead of one at a time.
