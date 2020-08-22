@@ -15,5 +15,5 @@ image_comparision.py - extra module used to see the similarities between two ima
 
 
 UPDATE:
-To make the program more dynamic I have merged all the files and used switch for menu functionality.
-Now you can scan multiple faces at one time and train then all together instead of one at a time.
+To make the program more dynamic I have merged all the files and used menu functionality.
+Now you can scan multiple faces at one time and train then all together instead of one at a time and then start the prediction.
